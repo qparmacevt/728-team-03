@@ -1,0 +1,121 @@
+.projects img {
+    width: 400px;
+}
+
+/* about our company */
+
+.about-company {
+    height: 870px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.about-company img {
+    width: 580px;
+}
+
+.about-company__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.about-company__content__descripdion {
+    font-size: 16px;
+    color: var(--text-grey-color);
+    padding-left: 30px;
+}
+
+.about-company__content ul{
+    margin-left: -30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.about-company__content li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.about-company__content__descripdion .context__button {
+    border-color: var(--text-grey-color);
+    color: var(--dark-background-color);
+}
+
+.about-company__content ul li svg {
+    width: 20px;
+    color: var(--button-color);
+    padding-right: 5px;
+}
+
+/* about our company */
+
+/* why choose us */
+
+.advantages__upper {
+    background:  linear-gradient(rgba(4, 26, 51, 0.6), rgba(4, 26, 51, 0.60)), url(../images/advantages-upper-bg.webp) no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    height: 700px;
+    padding-top: 110px;
+    padding-bottom: 120px;
+    color: var(--font-color);
+    text-align: center;
+
+}
+.advantages__upper .container div {
+    text-align: center;
+}
+
+.advantages__competence {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantages__competence p {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+}
+
+.advantages__competence i {
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    padding-top: 20px;
+    border-radius: 40%;
+    background-color: var(--button-color);
+    margin-right: 30px;
+}
+
+.advantages__competence div {
+    display: flex;
+    width: 390px;
+    text-align: left;
+}
+
+.advantages__lower {
+    background-image: url(../images/advantages-lower-bg.webp);
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+}
+
+.advantages__lower .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.advantages__lower__element > p{
+    font-size: 40px;
+}
+
+/* why choose us */
+

@@ -1,0 +1,84 @@
+.header_contacts {
+    background-color: var(--dark-background-color);
+}
+
+.header_contacts-inner {
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    height: 42px;
+}
+
+.header_phone a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.header_main {
+    background: linear-gradient(rgba(4, 26, 51, 0.6), rgba(4, 26, 51, 0.60)), url(../images/header-background.webp) no-repeat;
+    background-position: 70% 30%;
+}
+
+nav {
+    height: 106px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px; 
+
+}
+
+.logo p {
+    color: var(--font-color);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: -30px;
+}
+
+.logo p span {
+    color: var(--button-color)
+}
+
+.navs {
+    display: flex;
+    width: 37vw;
+    margin-right: -30px;
+    justify-content: space-between;
+}
+
+.navs a {
+    color: var(--font-color);
+    font-size: 18px;
+}
+
+.header_empty-block {
+    height: 500px;
+    width: 40vw;
+}
+
+.people-trust-us {
+    height: 500px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.people-trust-us p {
+    font-size: 15px;
+    color: #a9a9a9;
+}
+
+.header_lower-block {
+    display: flex;
+    padding: 60px 0px 180px 0px;
+   
+}
+
+.people-trust-us h3 {
+    color: var(--font-color);
+}
