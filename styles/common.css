@@ -52,6 +52,11 @@ h3 {
     transition: 0.5s;
 }
 
+.icons a:hover {
+    background-color: var(--date-color);
+    color: var(--font-color)
+}
+
 a {
     text-decoration: none;
 }
